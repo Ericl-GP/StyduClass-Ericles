@@ -1,0 +1,51 @@
+{% extends 'social/base.html' %}
+{% load widget_tweaks %}
+
+{% block content %}
+<div class="container mt-4">
+
+  <!-- Navbar Simples -->
+  <nav class="navbar navbar-expand-lg navbar-info bg-info mb-4 justify-content-center">
+    <span class="navbar-brand text-white h4">Social - StudyClass</span>
+  </nav>
+
+  <!-- Seção de Temas e Ações -->
+
+    <div class="col-md-6 bg-dark d-flex justify-content-around align-items-center py-4">
+      <a href="#" class="btn btn-primary">Criar conta</a>
+      <a href="#" class="btn btn-danger">Login</a>
+    </div>
+  </div>
+
+
+  <!-- Cards -->
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card h-100">
+        <a href="#" class="card-header text-decoration-none">Título</a>
+        <div class="card-body">Corpo</div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100">
+        <a href="#" class="card-header text-decoration-none">Título</a>
+        <div class="card-body">Corpo</div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100">
+        <a href="#" class="card-header text-decoration-none">Título</a>
+        <div class="card-body">Corpo</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Rodapé mais compacto -->
+<footer class="bg-info text-white text-center py-2 mt-5">
+  <small>
+    &copy; 2025 - 5º Período LC | Instituto Federal do Tocantins -
+    <a href="https://www.ifto.edu.br/" class="text-white text-decoration-underline" target="_blank">ifto.edu.br</a> - Campus Araguatins
+  </small>
+</footer>
+{% endblock %}
