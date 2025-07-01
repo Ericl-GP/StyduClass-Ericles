@@ -8,7 +8,7 @@ def new_usuario(request):
         form = UsuarioForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
-            return redirect('')  # substitua por uma URL válida
+            return redirect('index')  # substitua por uma URL válida
     else:
         form = UsuarioForm()
 
